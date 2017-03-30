@@ -14,7 +14,7 @@ use warnings;
 use XSLoader;
 use Exporter::Lite;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our @EXPORT_OK = qw/random_bytes/;
 
 XSLoader::load('Bytes::Random::XS', $VERSION);
