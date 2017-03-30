@@ -41,7 +41,7 @@ much faster (see L</BENCHMARKS> section).
 
 =head1 BENCHMARKS
 
-Comparison of L<Bytes::Random> and Bytes::Random::XS perfomance:
+Comparison of L<Bytes::Random> and Bytes::Random::XS performance:
 
     # random_bytes(64)
 
@@ -70,6 +70,12 @@ that doesn't have this problem.
 
 =back
 
+=head1 GIT REPOSITORY
+
+Bytes::Random::XS repository is hosted at github:
+
+    https://github.com/xenu/bytes-random-xs
+
 =head1 SEE ALSO
 
 =over 4
@@ -84,12 +90,6 @@ L<Bytes::Random::Secure> - cryptographically secure way to generate
 random bytes.
 
 =back
-
-=head1 FOSSIL REPOSITORY
-
-Bytes::Random::XS repository is hosted at my own server:
-
-    http://code.xenu.pl/bytes-random-xs
 
 =head1 AUTHOR
 

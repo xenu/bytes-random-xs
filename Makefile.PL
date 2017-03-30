@@ -20,9 +20,9 @@ WriteMakefile(
         'meta-spec' => { version => 2 },
         resources => {
             repository => {
-                type => 'fossil',
-                url => 'https://code.xenu.pl/bytes-random-xs',
-                web => 'https://code.xenu.pl/bytes-random-xs',
+                type => 'git',
+                url => 'https://github.com/xenu/bytes-random-xs.git',
+                web => 'https://github.com/xenu/bytes-random-xs',
             }
         },
     },
