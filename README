@@ -1,0 +1,3 @@
+use this instead:
+
+  perldoc Bytes::Random::XS
